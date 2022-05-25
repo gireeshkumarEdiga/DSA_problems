@@ -5,33 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        p {
-            background-color: red;
-        }
-        .para {
-            background-color: yellow;
-        }
-        #container {
-            background-color: coral;
-        }
-        * {
-            background-color: yellow;
-        }
-
-        div p {
-            background-color: blue;
-        }
-
-        div > p {
-            background-color: blueviolet;
-        }
-        
-    </style>
 </head>
 <body>
-    <div id="container">
-        <p class="para">paragraph 1</p>
-    </div>
+    <button onclick="fun()">Button</button>
 </body>
 </html>
+
+<script>
+    function fun(){
+        alert("hello world");
+        var url = "locahost.8080./amazon/data"
+        var res = fetch("locahost.8080./amazon/data");
+        res
+        .then((ans,url) => alert(url))
+    }
+</script>
+
+
+<!-- locahost.8080./amazon/data -->

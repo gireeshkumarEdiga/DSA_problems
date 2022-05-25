@@ -22,13 +22,13 @@
 
 
 
-var array = [40,30,20,60,10,5];
-var n = array.length;
-var k = 2; 
+// var array = [40,30,20,60,10,5];
+// var n = array.length;
+// var k = 2; 
 
-function kthlargest(array,n,k){
-    array.sort((a,b) => a-b);
-    return array[n-k];
-}
+// function kthlargest(array,n,k){
+//     array.sort((a,b) => a-b);
+//     return array[n-k];
+// }
 
-console.log(kthlargest(array,n,k));
+// console.log(kthlargest(array,n,k));

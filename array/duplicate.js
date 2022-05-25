@@ -24,7 +24,7 @@ for(var i=0; i<array.length; i++){
         obj[array[i]]++;
     }
 }
-console.log(obj)
+//console.log(obj)
 var max = 0;
 let x = 0;
 for(key in obj) {
@@ -34,3 +34,5 @@ for(key in obj) {
     }
 }
 console.log(x);
+
+

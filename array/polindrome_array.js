@@ -66,3 +66,50 @@ process.on("SIGINT", function () {
    runProgram(read);
    process.exit(0);
 });
+
+
+
+
+
+
+
+// var array = [111,222,333,444,555];
+
+// function allpolindrom(array){
+
+//     var res = pollyall(array);
+//     console.log(res);
+
+//     function pollyall(array){
+//         var count=0;
+//         for(var i=0; i<array.length; i++){
+//             if(ispolindrome(array[i])){
+//                 count++;
+//             }
+//         }
+//         if(count == array.length){
+//             return 1;
+//         }else{
+//             return 0;
+//         }
+//     }
+
+//     function ispolindrome(x){
+//         x = Number(x);
+//         var y = x;
+//         var digit = 1
+//         var rev = 0
+//         while(x>0){
+//             digit = x%10;
+//             x = Math.floor(x/10);
+//             rev = rev*10+digit;
+//         }
+//         if(rev==y){
+//             return true;
+//         }else{
+//             return false;
+//         }
+//     }
+// }
+
+// allpolindrom(array)
